@@ -1418,7 +1418,7 @@
 /* 229 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\nvar Nav = __webpack_require__(230);\n\n// var Main = React.createClass({\n//   render: function () {\n//     return (\n//       <div>\n//         <Nav/>\n//         <h2>Main component</h2>\n//         {this.props.children}\n//         <footer>Footer</footer>\n//       </div>\n//     );\n//   }\n// });\n\nvar Main = function Main(props) {\n  return React.createElement(\n    \"div\",\n    null,\n    React.createElement(Nav, null),\n    React.createElement(\n      \"h2\",\n      null,\n      \"Main component (stateless)\"\n    ),\n    props.children,\n    React.createElement(\n      \"footer\",\n      null,\n      \"Footer (not a component so far)\"\n    )\n  );\n};\n\nmodule.exports = Main;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Main.jsx\n ** module id = 229\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Main.jsx?");
+	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\nvar Nav = __webpack_require__(230);\n\n// var Main = React.createClass({\n//   render: function () {\n//     return (\n//       <div>\n//         <Nav/>\n//         <h2>Main component</h2>\n//         {this.props.children}\n//         <footer>Footer</footer>\n//       </div>\n//     );\n//   }\n// });\n\nvar Main = function Main(props) {\n  return React.createElement(\n    \"div\",\n    null,\n    React.createElement(Nav, null),\n    React.createElement(\n      \"h2\",\n      null,\n      \"Main!\"\n    ),\n    props.children,\n    React.createElement(\n      \"footer\",\n      null,\n      \"Footer (not a component so far)\"\n    )\n  );\n};\n\nmodule.exports = Main;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Main.jsx\n ** module id = 229\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Main.jsx?");
 
 /***/ },
 /* 230 */
@@ -1568,19 +1568,19 @@
 /* 254 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\n// var About = React.createClass({\n//   render: function () {\n//     return (\n//       <h3>About component</h3>\n//     );\n//   }\n// });\n\nvar About = function About(props) {\n  return React.createElement(\n    \"h3\",\n    null,\n    \"About component (stateless)\"\n  );\n};\n\nmodule.exports = About;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/About.jsx\n ** module id = 254\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/About.jsx?");
+	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\n// var About = React.createClass({\n//   render: function () {\n//     return (\n//       <h3>About component</h3>\n//     );\n//   }\n// });\n\nvar About = function About(props) {\n  return React.createElement(\n    \"h3\",\n    null,\n    \"About!\"\n  );\n};\n\nmodule.exports = About;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/About.jsx\n ** module id = 254\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/About.jsx?");
 
 /***/ },
 /* 255 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\nvar Contact = React.createClass({\n  displayName: \"Contact\",\n\n  render: function render() {\n    return React.createElement(\n      \"h3\",\n      null,\n      \"Contact component\"\n    );\n  }\n});\n\nmodule.exports = Contact;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Contact.jsx\n ** module id = 255\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Contact.jsx?");
+	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\nvar Contact = React.createClass({\n  displayName: \"Contact\",\n\n  render: function render() {\n    return React.createElement(\n      \"h3\",\n      null,\n      \"Contact!\"\n    );\n  }\n});\n\nmodule.exports = Contact;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Contact.jsx\n ** module id = 255\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Contact.jsx?");
 
 /***/ },
 /* 256 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\nvar Examples = React.createClass({\n  displayName: \"Examples\",\n\n  render: function render() {\n    return React.createElement(\n      \"div\",\n      null,\n      React.createElement(\n        \"h3\",\n        null,\n        \"Examples component\"\n      ),\n      React.createElement(\n        \"p\",\n        null,\n        \"Adding some changes\"\n      )\n    );\n  }\n});\n\nmodule.exports = Examples;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Examples.jsx\n ** module id = 256\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Examples.jsx?");
+	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\nvar Examples = React.createClass({\n  displayName: \"Examples\",\n\n  render: function render() {\n    return React.createElement(\n      \"div\",\n      null,\n      React.createElement(\n        \"h3\",\n        null,\n        \"Examples!\"\n      ),\n      React.createElement(\n        \"p\",\n        null,\n        \"Adding some changes\"\n      )\n    );\n  }\n});\n\nmodule.exports = Examples;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Examples.jsx\n ** module id = 256\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Examples.jsx?");
 
 /***/ }
 /******/ ]);

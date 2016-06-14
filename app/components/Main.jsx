@@ -18,7 +18,7 @@ var Main = (props) => {
   return (
     <div>
       <Nav></Nav>
-      <h2>Main component (stateless)</h2>
+      <h2>Main!</h2>
       {props.children}
       <footer>Footer (not a component so far)</footer>
     </div>
