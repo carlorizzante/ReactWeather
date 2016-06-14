@@ -1580,7 +1580,7 @@
 /* 256 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\nvar Examples = React.createClass({\n  displayName: \"Examples\",\n\n  render: function render() {\n    return React.createElement(\n      \"h3\",\n      null,\n      \"Examples component\"\n    );\n  }\n});\n\nmodule.exports = Examples;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Examples.jsx\n ** module id = 256\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Examples.jsx?");
+	eval("\"use strict\";\n\nvar React = __webpack_require__(1);\n\nvar Examples = React.createClass({\n  displayName: \"Examples\",\n\n  render: function render() {\n    return React.createElement(\n      \"div\",\n      null,\n      React.createElement(\n        \"h3\",\n        null,\n        \"Examples component\"\n      ),\n      React.createElement(\n        \"p\",\n        null,\n        \"Adding some changes\"\n      )\n    );\n  }\n});\n\nmodule.exports = Examples;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Examples.jsx\n ** module id = 256\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Examples.jsx?");
 
 /***/ }
 /******/ ]);
