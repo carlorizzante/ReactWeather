@@ -19,7 +19,7 @@ var Main = (props) => {
     <div>
       <Nav></Nav>
       <div className="row">
-        <div className="columns small-centered medium-6">
+        <div className="columns small-centered medium-8 large-6">
           {props.children}
         </div>
         <footer>Footer (not a component so far)</footer>
