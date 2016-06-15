@@ -10,7 +10,7 @@ module.exports = {
 
     return axios.get(requestedURL).then(
       function (res) {
-        console.log(requestedURL);
+        // console.log(requestedURL);
         return res.data.list[0].main.temp;
         //
         // if (res.data.cod && res.data.message) {

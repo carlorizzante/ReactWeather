@@ -3,7 +3,7 @@ var React = require("react");
 var Contact = React.createClass({
   render: function () {
     return (
-      <h3>Contact!</h3>
+      <h1>Contact!</h1>
     );
   }
 });

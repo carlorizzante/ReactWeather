@@ -18,9 +18,12 @@ var Main = (props) => {
   return (
     <div>
       <Nav></Nav>
-      <h2>Main!</h2>
-      {props.children}
-      <footer>Footer (not a component so far)</footer>
+      <div className="row">
+        <div className="columns small-centered medium-6">
+          {props.children}
+        </div>
+        <footer>Footer (not a component so far)</footer>
+      </div>
     </div>
   );
 }
