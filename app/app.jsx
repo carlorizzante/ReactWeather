@@ -7,6 +7,10 @@ var About = require("./components/About");
 var Contact = require("./components/Contact");
 var Examples = require("./components/Examples");
 
+// Load Foundation
+require("style!css!foundation-sites/dist/foundation.min.css");
+$(document).foundation();
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
