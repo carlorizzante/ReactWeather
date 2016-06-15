@@ -13,14 +13,16 @@ module.exports = {
         // console.log(requestedURL);
         return res.data.list[0].main.temp;
         //
-        // if (res.data.cod && res.data.message) {
-        //   throw new Error(res.data.message);
-        // } else {
-        //   return res.data.main.temp;
-        // }
+        if (res.data.cod && res.data.message) {
+          throw new Error(res.data.message);
+          // throw new Error("New error message");
+        } else {
+          return res.data.list[0].main.temp;
+        }
       },
       function (err) {
         throw new Error(err.data.message);
+        // throw new Error("Ultimate error message");
       }
     );
   }
