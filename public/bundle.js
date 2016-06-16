@@ -1664,7 +1664,7 @@
 /* 270 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("exports = module.exports = __webpack_require__(267)();\n// imports\n\n\n// module\nexports.push([module.id, \"body {\\n  color: #333; }\\n\\nh1.page-title {\\n  margin-top: 3rem;\\n  margin-bottom: 3rem;\\n  color: purple; }\\n\\ninput[type=search] {\\n  box-shadow: none; }\\n\", \"\"]);\n\n// exports\n\n\n/*****************\n ** WEBPACK FOOTER\n ** ./~/css-loader!./~/sass-loader!./app/style/app.scss\n ** module id = 270\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/style/app.scss?./~/css-loader!./~/sass-loader");
+	eval("exports = module.exports = __webpack_require__(267)();\n// imports\n\n\n// module\nexports.push([module.id, \"body {\\n  color: #333; }\\n\\nh1.page-title {\\n  margin-top: 3rem;\\n  margin-bottom: 3rem;\\n  color: purple; }\\n\\ninput[type=search] {\\n  box-shadow: none; }\\n\\n.active {\\n  font-weight: bold; }\\n\", \"\"]);\n\n// exports\n\n\n/*****************\n ** WEBPACK FOOTER\n ** ./~/css-loader!./~/sass-loader!./app/style/app.scss\n ** module id = 270\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/style/app.scss?./~/css-loader!./~/sass-loader");
 
 /***/ },
 /* 271 */
