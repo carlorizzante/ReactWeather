@@ -1,0 +1,18 @@
+$text-color: #333;
+$title-color: purple;
+$background-color: lighten(#2199E8,30%);
+
+body {
+  // background-color: $background-color;
+  color: $text-color;
+}
+
+h1.page-title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: $title-color;
+}
+
+input[type=search] {
+  box-shadow: none;
+}
